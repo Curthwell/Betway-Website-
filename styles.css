@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body
+{
+    font-family: "Open Sans",
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.main-parent
+{
+    margin: 4% auto;
+    padding: 5px 5px;
+    border-radius: 3px;
+    color: black;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-parent .form-wrap
+{
+    width: 450px;
+    background: linear-gradient(45deg, white, red);
+    border-radius: 10px;
+    padding: 35px 40px;
+    backdrop-filter: blur(5px);
+}
+.form-wrap form h1
+{
+    font-family: 'Acme', sans-serif;
+    font-variant: small-caps;
+    height: 35px;
+    position: relative;
+    font-size: 17px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+.form-wrap form h1 span
+{
+    font-variant: small-caps;
+    color: white;
+    font-size: larger;
+    text-align: end;
+}
+.form-wrap form .single-input input {
+    padding: 15px 12px;
+    border: 1px solid rgba(0, 0, 0, 0.3521);
+    outline: none;
+    background: whitesmoke;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    display: inline-flex;
+    width: 200px;
+    height: 20px;
+}
+.form-wrap form .button
+{
+    text-align: center;
+    size: 20%;
+    
+}
+.form-wrap form .button button.button
+{
+    padding: 13px 30px;
+    background-color: white;
+    outline: none;
+    border: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+.form-wrap form .forgot-id
+{
+    margin: 15px;
+}
+
+.form-wrap form .forgot-id a
+{
+    color: #025fd2;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.signup {
+    position: relative;
+    border: 1px solid #b6b6b6;
+    border-radius: 2px;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 30px;
+}
+
+.signup a {
+    text-decoration: none;
+    margin-left: 5px;
+    color: #008aff;
+    font-weight: bold;
+    
+}
+        @media(min-width:767px){
+        #coversational-footer-text{
+         display: grid;
+          grid-template-columns: repeat(3,1fr) ;
+          grid-gap: 5px;
+        }
+        }
+        
+    #coversational-footer-text{
+     width: 100%;
+    justify-content:center;
+    background-color:#008B8B;
+    }
+    .conversational-grid-item{
+    color: white;
+    size:16px;
+    line-height:28px;
+    font-weight:bold;
+    margin-bottom:16px;
+    }
+    .conversational-grid-child-item{
+    size:14px;
+    line-height:20px;
+    color: white;
+    padding-bottom:12px;
+    }
+    .conversation-textSpacing{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    padding-left:10px;
+    padding-right:10px;
+    text-align:center;
+    }
+
+    .form-check form-check-inline {
+        display: inline-flex;
+        align-items: center;
+    }
+
+    .fblink
+    {
+    margin-top: 15px;
+    width: 100%;
+    }
+
+    .fblink span {
+     font-size: 18px;
+     color: #021897;  
+     margin-right: 5px; 
+    }
+
+    .fblink a{
+        text-decoration: none;
+        font-weight: bold;
+        color: #021897;
+    }
+
+
+    /**.responsible h3{
+        text-align: center;
+        text-decoration: none;
+        background-color: red;
+        font-size: large;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    } */
+
+    
+    
